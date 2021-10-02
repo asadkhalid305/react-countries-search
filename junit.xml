@@ -1,0 +1,82 @@
+<testsuites name="jest tests" tests="6" failures="5" time="1.697">
+  <testsuite name="CountryFilter App" errors="0" failures="5" skipped="0" timestamp="2021-10-02T20:35:20" time="1.697" tests="6">
+    <testcase classname="CountryFilter App should render the Initial state without crash" name="CountryFilter App should render the Initial state without crash" time="0.098">
+    </testcase>
+    <testcase classname="CountryFilter App should have right countries in the rendered HTML after filtering" name="CountryFilter App should have right countries in the rendered HTML after filtering" time="0.038">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 205
+    at forEach (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:46:29)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.it (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:40:41)
+    at Object.asyncJestTest (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)</failure>
+    </testcase>
+    <testcase classname="CountryFilter App should filter countries without case sensitivity" name="CountryFilter App should filter countries without case sensitivity" time="0.031">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 205
+    at forEach (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:59:29)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.it (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:54:41)
+    at Object.asyncJestTest (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)</failure>
+    </testcase>
+    <testcase classname="CountryFilter App should support fuzzy search" name="CountryFilter App should support fuzzy search" time="0.03">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 4
+Received: 205
+    at forEach (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:71:29)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.it (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:65:20)
+    at Object.asyncJestTest (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)</failure>
+    </testcase>
+    <testcase classname="CountryFilter App should show all contents on resetting the typed fields" name="CountryFilter App should show all contents on resetting the typed fields" time="0.029">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 205
+Received: 4
+    at Object.it (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:89:27)
+    at Object.asyncJestTest (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)</failure>
+    </testcase>
+    <testcase classname="CountryFilter App should should show correct content after a series of searches" name="CountryFilter App should should show correct content after a series of searches" time="0.053">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 3
+Received: 0
+    at Object.it (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/src/App.test.js:113:27)
+    at Object.asyncJestTest (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/asadkhalid305/Desktop/31a57818-fe81-4f66-80a6-61fdb0009c59/node_modules/jest-jasmine2/build/queueRunner.js:73:41)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
